@@ -7,8 +7,6 @@ export const Posts = () => (
       height: "1000px",
     }}
   >
-    <h3>
-    Posts
-    </h3>
+    <h3>Posts</h3>
   </section>
 );

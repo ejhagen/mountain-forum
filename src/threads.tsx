@@ -7,8 +7,6 @@ export const Threads = () => (
       height: "1000px",
     }}
   >
-    <h3>
-    Threads
-    </h3>
+    <h3>Threads</h3>
   </section>
 );
