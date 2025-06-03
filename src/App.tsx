@@ -1,12 +1,12 @@
 import "./App.css";
-import { NavigationBar } from "./navigation";
+import { Navigation } from "./navigation";
 import { Posts } from "./posts";
 import { Threads } from "./threads";
 
 function App() {
   return (
     <>
-      <NavigationBar />
+      <Navigation />
       <div
         style={{
           display: "flex",

@@ -1,4 +1,6 @@
-export const Threads = () => (
+import { FunctionComponent } from "react";
+
+export const Threads: FunctionComponent = () => (
   <section
     style={{
       display: "flex",

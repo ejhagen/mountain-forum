@@ -1,4 +1,6 @@
-export const Posts = () => (
+import { FunctionComponent } from "react";
+
+export const Posts: FunctionComponent = () => (
   <section
     style={{
       display: "flex",
