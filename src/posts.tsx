@@ -1,4 +1,6 @@
-export const Posts = () => (
+import { FunctionComponent } from "react";
+
+export const Posts: FunctionComponent = () => (
   <section
     style={{
       display: "flex",
@@ -7,8 +9,6 @@ export const Posts = () => (
       height: "1000px",
     }}
   >
-    <h3>
-    Posts
-    </h3>
+    <h3>Posts</h3>
   </section>
 );

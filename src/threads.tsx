@@ -1,4 +1,6 @@
-export const Threads = () => (
+import { FunctionComponent } from "react";
+
+export const Threads: FunctionComponent = () => (
   <section
     style={{
       display: "flex",
@@ -7,8 +9,6 @@ export const Threads = () => (
       height: "1000px",
     }}
   >
-    <h3>
-    Threads
-    </h3>
+    <h3>Threads</h3>
   </section>
 );
